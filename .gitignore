@@ -1,0 +1,47 @@
+# Local helper scripts
+push_it.sh
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Visual MIMO generated transfer artifacts
+transfer.mp4
+recovered.*
+compact.mp4
+*.decoded
+*.encode.log
+*.decode.log
+
+# Generated research reports and scratch data
+ratio_reports/
+
+# Generated binary corpus files
+binary_*.bin
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
