@@ -28,13 +28,9 @@ What each script does:
 
 ## Original vs Decoded
 
-| Original `images/jovial.png` | Checksum and Size | Decoded `examples/jovial_decoded.png` |
-|---|---|---|
-| ![Original jovial](../images/jovial.png) | SHA-256 (original): `3fa11108fadbc3aa23231acca3d07dd40ee2cf874a80c8230697ecb7d226dd96`  \
-SHA-256 (decoded): `3fa11108fadbc3aa23231acca3d07dd40ee2cf874a80c8230697ecb7d226dd96`  \
-Bytes (original): `3292985`  \
-Bytes (decoded): `3292985`  \
-Status: `match` | ![Decoded jovial](jovial_decoded.png) |
+| Original `images/jovial.png`                                                      | Checksum and Size                                                                                                                                                                                                                                         | Decoded `examples/jovial_decoded.png`                                                |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| <img src="../images/jovial.png" alt="Original jovial" style="width:25%; height:auto;" /> | SHA-256 (original): `3fa11108fadbc3aa23231acca3d07dd40ee2cf874a80c8230697ecb7d226dd96`<br>SHA-256 (decoded): `3fa11108fadbc3aa23231acca3d07dd40ee2cf874a80c8230697ecb7d226dd96`<br>Bytes (original): `3292985`<br>Bytes (decoded): `3292985`<br>Status: `match` | <img src="jovial_decoded.png" alt="Decoded jovial" style="width:25%; height:auto;" /> |
 
 ## Recompute Checksums and Byte Sizes
 
